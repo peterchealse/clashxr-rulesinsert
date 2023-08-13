@@ -1,7 +1,7 @@
 import { parse, stringify } from 'yaml'
 import fs from 'fs'
 
-const fileName = '/Users/jojo/.config/clash/fast.losadhwselfff2332dasd.xyz.yaml'
+const fileName = '/Users/jojo/.config/clash/ClashR_1691897040.yaml'
 const file = fs.readFileSync(fileName, 'utf8')
 const fileContent = parse(file)
 
